@@ -1,5 +1,5 @@
 # encode your payload: http://string-functions.com/base64encode.aspx
-# accrobata e gei
+# accrobata e gei, made by weasley <3
 import os
 import base64
 
